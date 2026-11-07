@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account | MUST</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="page-container">
+        <section class="auth-card">
+            <img src="must-logo.png" alt="MUST university logo" class="university-logo">
+            <h2>MBARARA UNIVERSITY OF SCIENCE AND TECHNOLOGY</h2>
+            <p class="portal-name">Student Application Portal</p>
+
+            <p class="eyebrow">NEW APPLICANT</p>
+            <h1>Create your account</h1>
+            <p class="help-text">Enter your details to start your MUST application.</p>
+
+            <form action="#" method="post">
+                <label for="full-name">Full name</label>
+                <input type="text" id="full-name" name="full-name" placeholder="Your full name" required>
+
+                <label for="new-email">Email address</label>
+                <input type="email" id="new-email" name="new-email" placeholder="student@must.ac.ug" required>
+
+                <label for="new-password">Create password</label>
+                <input type="password" id="new-password" name="new-password" placeholder="At least 8 characters" minlength="8" required>
+
+                <label for="confirm-password">Confirm password</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Repeat your password" minlength="8" required>
+
+                <button type="submit">Create account</button>
+            </form>
+
+            <p class="switch-text">Already have an account? <a href="index.html">Back to login</a></p>
+            <p class="footer-text">MUST ICT Services · Secure student access</p>
+        </section>
+    </main>
+</body>
+</html>

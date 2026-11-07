@@ -1,0 +1,6 @@
+{
+  "routes": [
+    { "path": "/", "title": "MUST Login" },
+    { "path": "/create-account.html", "title": "MUST Create Account" }
+  ]
+}
